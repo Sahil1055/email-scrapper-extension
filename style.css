@@ -1,0 +1,58 @@
+body {
+    min-width: 300px;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 320px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333333;
+  }
+  
+  .email-list {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .email-list li {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    color: #333333;
+  }
+  
+  .email-list li.no-emails {
+    color: #999999;
+  }
+  
+  .scrape-emails-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scrape-emails-button:hover {
+    background-color: #45a049;
+  }
+  
+  
